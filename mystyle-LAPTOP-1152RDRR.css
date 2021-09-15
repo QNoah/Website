@@ -1,0 +1,89 @@
+html,body{
+    background-color: mediumpurple;
+    width: 100vw;
+    min-height: 100vh;
+}
+#naam{
+    color: snow;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Allison', cursive;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    position: absolute;
+}
+li a {
+    display: block;
+    background-color:rgb(103, 70, 170);
+    padding: 12px 12px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(153, 79, 190);
+    color: white;
+}
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.image{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#over{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 20%;
+    bottom: -10px;
+    /* font-family: 'Big Shoulders Display', cursive; */
+}
+#rotterdamimage{
+    position: absolute;
+    width: 400px;
+    right: 100px;
+    float: right;
+}
+#famfoto{
+    width: 400px;
+    left: 20px;
+    vertical-align: -250px;
+    float: left;
+}
+#werk{
+    display: inline-block;
+    font-size: 22px;
+    color: aliceblue;
+}
+#kevin{
+    width: 30%;
+    vertical-align: auto;
+    float: left;
+    border: 1px;
+}
+.Rap{
+    color: aliceblue;
+    font-size: xx-large;
+}
+#rapinfo{
+    display: inline-flex;
+}
+#hobbies1{
+    text-align: center;
+}
+#bike{
+    width: 10%;
+    position: absolute;
+    right: 496px;
+    vertical-align: auto;
+    border: 1px;
+}
+#vrienden{
+    font-size: xx-large;
+}

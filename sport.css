@@ -1,0 +1,49 @@
+html,body{
+    background-image: url('achtergrond.jpg');
+    width: 90vw;
+    min-height: 20vh;
+}
+#naam{
+    color: snow;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Allison', cursive;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    position: absolute;
+}
+li a {
+    display: block;
+    background-color:rgb(103, 70, 170);
+    padding: 12px 12px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(153, 79, 190);
+    color: white;
+}
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+#over{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 20%;
+    bottom: -10px;
+}
+#conor{
+    width: 500px;
+    height: auto;
+    float: left;
+}
+#basicfit{
+    width: 650px;
+    height: auto;
+    float: right;
+}

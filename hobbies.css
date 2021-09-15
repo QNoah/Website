@@ -1,0 +1,96 @@
+html,body{
+    /* background-color: mediumpurple; */
+    background-image: url('achtergrond.jpg');
+    width: 90vw;
+    min-height: 20vh;
+}
+#naam{
+    color: snow;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Allison', cursive;
+    
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    position: absolute;
+}
+li a {
+    display: block;
+    background-color:rgba(103, 70, 170, 0.244);
+    padding: 12px 12px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(153, 79, 190);
+    color: white;
+}
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+#over{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 20%;
+    bottom: -10px;
+    /* font-family: 'Big Shoulders Display', cursive; */
+}
+#kevin{
+    width: 30%;
+    vertical-align: auto;
+    float: left;
+    border: 1px;
+}
+.Rap{
+    color: aliceblue;
+    font-size: xx-large;
+    
+}
+#rapinfo{
+    display: inline-flex;
+}
+#hobbies1{
+    text-align: center;
+}
+#bike{
+    width: 10%;
+    position: absolute;
+    right: 496px;
+    vertical-align: auto;
+    border: 1px;
+}
+#vrienden{
+    font-size: xx-large;
+    color: aliceblue;
+}
+video {
+    margin-left: 25%;
+    margin-right: auto;
+    display: block;
+    margin-top: -350px;
+    float: left;
+    border: 1px;
+}
+#infovrienden{
+    text-align: left;
+}
+.videoclass video{
+    border: 10px solid rgba(91, 86, 86, 0.462);
+    margin-right: 50px;
+}
+.videoclass{
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: -500px;
+}
+.jaja{
+    display: inline-block;
+}
+#josylvio{
+    float: right;
+}
