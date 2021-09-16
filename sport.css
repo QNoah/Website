@@ -1,4 +1,4 @@
-html,body{
+    html,body{
     background-image: url('achtergrond.jpg');
     width: 90vw;
     min-height: 20vh;
@@ -18,7 +18,7 @@ ul {
 }
 li a {
     display: block;
-    background-color:rgb(103, 70, 170);
+    background-color:rgba(103, 70, 170, 0.244);
     padding: 12px 12px;
     text-decoration: none;
 }
